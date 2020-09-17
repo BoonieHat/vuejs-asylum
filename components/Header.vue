@@ -3,14 +3,12 @@
     <div class="headerContainer">
       <div class="headerLogo">
         <a href="/">
-          <img src="../assets/images/logo.png" style="width: 150px"></img>
+          <img src="../assets/images/logowhite.png" style="width: 150px"></img>
         </a>
       </div>
 
       <button class="buttonHeader">
-        <a href="/play">
-          <a>PLAY NOW</a>
-        </a>
+        <a href="/play">PLAY NOW</a>
       </button>
 
       <button class="buttonHeader">
