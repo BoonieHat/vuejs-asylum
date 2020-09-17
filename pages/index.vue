@@ -1,17 +1,20 @@
 <template>
   <div>
     <Header />
-    <IndexBanner />
+    <Banner />
+    <Content />
   </div>
 </template>
 
 <script>
 import Header from '~/components/Header.vue'
-import IndexBanner from '~/components/IndexBanner.vue'
+import Banner from '~/components/index/Banner.vue'
+import Content from '~/components/index/Content.vue'
 export default {
   components: {
     Header,
-    IndexBanner
+    Banner,
+    Content
   }
 }
 </script>
