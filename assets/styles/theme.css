@@ -1,0 +1,57 @@
+/* All text related coloring */
+:root {
+  --text-color: #ffffff;
+  --text-color-opacity-16: rgba(255, 255, 255, 0.16);
+  --text-color-opacity-75: rgba(255, 255, 255, 0.75);
+  --text-color-opacity-50: rgba(255, 255, 255, 0.5);
+  --text-color-muted: #B6A5D4;
+  --text-color-disabled: #9CA1E9;
+  --text-color-label: #ffffff;
+}
+/* Main Background */
+:root {
+  --background-color: #0C0D2A;
+  --background-color-opacity-50: rgba(12, 13, 42, 0.5);
+  --header-background-color: #15143C;
+}
+/* Main Foreground */
+:root {
+  --foreground-color: #15143C;
+  --foreground-color-high-contrast: #4740B9;
+  --foreground-color-medium-contrast: #252166;
+  --foreground-color-low-contrast: #211D5C;
+}
+/* Accents */
+:root {
+  --accent-color-medium-contrast: #947ECA;
+  --accent-color-medium-contrast-lighten-20: hsl(257.4, 41.8%, 77.2%);
+  --accent-color-medium-contrast-2: #613F99;
+  --accent-color-medium-contrast-2-darken-10: hsl(262.7, 41.7%, 38.1%);
+  --accent-color-medium-contrast-2-darken-20: hsl(262.7, 41.7%, 33.9%);
+  --accent-color-high-contrast: #4BB6D6;
+}
+/* Utility */
+:root {
+  --font-size-big: 20px;
+  --font-size-md: 16px;
+  --font-size-small: 14px;
+  --border-radius: 0;
+}
+/* Social */
+:root {
+  --social-color-xbox: #107c10;
+  --social-color-steam: #5d8329;
+  --social-color-psn: #003791;
+  --social-color-origin: #f1590b;
+  --social-color-battlenet: #0090d6;
+  --social-color-epic: #474546;
+  --social-color-uplay: #0070ff;
+  --social-color-discord: #7289da;
+  --social-color-twitch: #6440a5;
+  --social-color-twitter: #1da1f2;
+  --social-color-youtube: red;
+  --social-color-riot: #d53435;
+  --social-color-bungie: #00a1dd;
+  --social-color-instagram: #c74274;
+  --social-color-stadia: #de3334;
+}
