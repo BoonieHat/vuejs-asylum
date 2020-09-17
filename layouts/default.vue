@@ -9,10 +9,6 @@
 @import "../assets/styles/home.css";
 @import "../assets/styles/main.css";
 
-html {
-  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif
-}
-
 body {
   margin: 0px;
 }
