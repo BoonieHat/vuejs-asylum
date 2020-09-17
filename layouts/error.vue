@@ -1,7 +1,6 @@
 <template>
   <section class="container">
     <div>
-      <Logo />
       <h1 class="title">
         {{ error.statusCode }}
       </h1>
@@ -47,14 +46,14 @@ export default {
   color: #35495e;
   letter-spacing: 1px;
 }
-.info
-{
+
+.info {
   font-weight: 300;
   color: #9aabb1;
   margin: 0;
 }
-.button
-{
+
+.button {
   margin-top: 50px;
 }
 </style>
