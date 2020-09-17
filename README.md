@@ -1,6 +1,6 @@
 # asylum-minecraft-website
 
-Live demo: https://mcasylum.booniehat.com
+Live demo: https://mcasylum.booniehat.dev
 
 ## Prerequisites
 
