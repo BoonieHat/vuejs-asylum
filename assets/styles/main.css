@@ -22,13 +22,6 @@
 .mlAuto { margin-left: auto; }
 .mrAuto { margin-right: auto; }
 
-.asylumcarousel {
-  display: flex;
-  font-family: 'Inter', sans-serif;
-  height: 400px;
-  background-color: #000;
-  color: #fff;
-}
 
 .asylumcarousel h1 { font-size: 68px; }
 .asylumcarousel h3 { font-size: 18px; }

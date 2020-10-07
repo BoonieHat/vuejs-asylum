@@ -8,6 +8,7 @@
 @import "../assets/styles/theme.css";
 @import "../assets/styles/home.css";
 @import "../assets/styles/main.css";
+@import "../assets/styles/button.css";
 
 body {
   margin: 0px;

@@ -6,9 +6,9 @@
           <AsylumLogo />
         </div>
         <h3>JOIN 185,828 OTHER UNIQUE PLAYERS</h3>
-        <button class="buttonPrimary mt2rem">
-          <a href="/play">PLAY NOW</a>
-        </button>
+        <a class="as-button teamspeak mt2rem" href="/play">Teamspeak</a>
+        <a class="as-button discord mt2rem" href="/play">Discord</a>
+        <a class="as-button forum mt2rem" href="/play">Forums</a>
       </div>
     </div>
   </div>

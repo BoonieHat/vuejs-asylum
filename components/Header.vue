@@ -5,7 +5,7 @@
     <ul>
 
       <li class="item">
-        <a href="/home" class="item-content <% if(typeof navbar !== 'undefined') { %><% if(navbar === 'home') {%><%='active'%><%}%><%}%>">
+        <a href="/home" class="item-content">
           <div class="label">
             <div class="label-content">
               <span class="name">Home</span> 

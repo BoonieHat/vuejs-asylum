@@ -44,6 +44,8 @@
   --media-bungie: #00a1dd;
   --media-instagram: #c74274;
   --media-stadia: #de3334;
+
+  --media-forum: #f1590b;
 }
 a {
   color: var(--color-accent);

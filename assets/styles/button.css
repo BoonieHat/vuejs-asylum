@@ -1,0 +1,94 @@
+.as-button {
+  font-family: 'Inter', sans-serif;
+  user-select: none;
+  font-weight: 600;
+  font-size: 16px;
+  -webkit-appearance: none;
+  text-shadow: none;
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 5px;
+  line-height: 30px;
+  position: relative;
+  border: 0 solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+.as-button:hover {
+  text-decoration: none;
+}
+.as-button:active {
+  border: 0 solid transparent;
+}
+
+.as-button-icon {
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.as-button.primary {
+  color: var(--button-primary-text-muted);
+  background: var(--button-primary-accent);
+}
+.as-button.primary:hover {
+  color: var(--button-primary-text);
+  background: var(--button-primary-accent-hover);
+  box-shadow: var(--button-primary-shadow-hover)
+}
+.as-button.primary:hover,
+.as-button.primary:focus {
+  box-shadow: 0 0.4em 0.6em -0.4em var(--button-primary-accent);
+  -webkit-transform: translateY(-0.1em);
+          transform: translateY(-0.1em);
+}
+
+.as-button.teamspeak {
+  color: var(--button-primary-text-muted);
+  background: var(--media-teamspeak);
+}
+.as-button.teamspeak:focus,
+.as-button.teamspeak:hover {
+  color: var(--button-primary-text);
+  box-shadow: 0 0.4em 0.6em -0.4em var(--media-teamspeak);
+  -webkit-transform: translateY(-0.1em);
+          transform: translateY(-0.1em);
+}
+
+.as-button.discord {
+  color: var(--button-primary-text-muted);
+  background: var(--media-discord);
+}
+.as-button.discord:focus,
+.as-button.discord:hover {
+  color: var(--button-primary-text);
+  box-shadow: 0 0.4em 0.6em -0.4em var(--media-discord);
+  -webkit-transform: translateY(-0.1em);
+          transform: translateY(-0.1em);
+}
+
+.as-button.forum {
+  color: var(--button-primary-text-muted);
+  background: var(--media-forum);
+}
+.as-button.forum:focus,
+.as-button.forum:hover {
+  color: var(--button-primary-text);
+  box-shadow: 0 0.4em 0.6em -0.4em var(--media-forum);
+  -webkit-transform: translateY(-0.1em);
+          transform: translateY(-0.1em);
+}
+
+.as-button.secondary {
+  color: var(--color-text);
+  background: var(--color-light);
+}
+.as-button.secondary:hover {
+  color: var(--color-text);
+  background: var(--color-light);
+}
