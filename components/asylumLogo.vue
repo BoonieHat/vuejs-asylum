@@ -1,5 +1,4 @@
 <template>
-  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
   <svg xmlns:svg="http://www.w3.org/2000/svg"
     xmlns="http://www.w3.org/2000/svg" height="138.36868" width="727.5545" xml:space="preserve"
     viewBox="0 0 727.5545 138.36868" y="0px" x="0px" id="asylumsvg" version="1.1">
@@ -61,8 +60,9 @@
 </template>
 
 <script>
-/* eslint-disable */
 export default {
-  name: 'asylumLogo'
+  name: 'AsylumLogo'
 }
 </script>
+
+<style lang="css" scoped></style>

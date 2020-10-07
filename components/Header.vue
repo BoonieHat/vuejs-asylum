@@ -1,29 +1,41 @@
 <template>
-  <div class="header">
-    <div class="headerContainer">
-      <div class="headerLogo">
-        <a href="/">
-          <img src="../assets/images/logowhite.png" style="width: 150px"></img>
+  <div class="asylum-header">
+  <nav>
+    <div class="header-logo"><a href="/"><AsylumLogo /></a></div>
+    <ul>
+
+      <li class="item">
+        <a href="/home" class="item-content <% if(typeof navbar !== 'undefined') { %><% if(navbar === 'home') {%><%='active'%><%}%><%}%>">
+          <div class="label">
+            <div class="label-content">
+              <span class="name">Home</span> 
+            </div>
+          </div>
         </a>
-      </div>
+      </li>
 
-      <button class="buttonHeader">
-        <a href="/play">PLAY NOW</a>
-      </button>
+      <li class="item">
+        <a href="https://gaming-asylum.com/forums" rel="noreferrer noopener" class="item-content">
+          <div class="label">
+            <div class="label-content">
+              <span class="name">Forums</span> 
+            </div>
+          </div>
+        </a>
+      </li>
 
-      <button class="buttonHeader">
-        <a href="/store">STORE</a>
-      </button>
-    </div>
-  </div>
+    </ul>
+  </nav>
+</div>
 </template>
 
 <script>
+import AsylumLogo from './asylumLogo.vue'
 export default {
   name: 'Header'
 }
 </script>
 
-<style lang="scss">
-@import "../assets/styles/header.scss";
+<style lang="css">
+@import "../assets/styles/header.css";
 </style>

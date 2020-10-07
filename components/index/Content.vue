@@ -1,5 +1,5 @@
 <template>
-  <div class="contentRoot" style="background-image: url(./tile.jpg)">
+  <div class="contentRoot">
     <div class="wrapperMain">
       <div class="marginCenter">
         <h1 class="headline">

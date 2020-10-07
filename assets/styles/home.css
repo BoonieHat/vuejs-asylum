@@ -1,3 +1,13 @@
+.home-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-logo svg {
+  height: 60px;
+  fill: var(--color-text);
+}
+
 .wrapperMain {
   flex: 1;
   display: flex;
@@ -54,9 +64,9 @@
   font-family: 'Inter', sans-serif;
   width: 100%;
   padding-bottom: 250px;
-  padding-top: 50px;
+  padding-top: 25px;
   box-shadow: 0px -20px 50px rgba(0, 0, 0, 0.4);
-  background-size: 5%;
+  background: var(--color-front);
 }
 
 .contentRoot .headline {
