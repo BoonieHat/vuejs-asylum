@@ -25,8 +25,7 @@
 .asylumcarousel {
   display: flex;
   font-family: 'Inter', sans-serif;
-  padding-top: 60px;
-  height: 350px;
+  height: 400px;
   background-color: #000;
   color: #fff;
 }
