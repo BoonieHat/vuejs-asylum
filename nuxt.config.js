@@ -3,6 +3,7 @@ export default {
     title: "My Nuxt.js Application!"
   }
 };
+//
 /*
 export default {
   buildDir: 'nuxt-dist',
