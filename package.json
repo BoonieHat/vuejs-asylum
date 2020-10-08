@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate",
+    "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "yarn lint:js",
@@ -14,9 +14,8 @@
   },
   "dependencies": {
     "@nuxt/http": "latest",
-    "nuxt": "latest",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^10.0.2"
+    "@nuxtjs/vercel-builder": "^0.17.12",
+    "nuxt": "latest"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",
