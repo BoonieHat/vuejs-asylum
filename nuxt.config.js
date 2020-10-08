@@ -1,7 +1,7 @@
 export default {
   target: 'server',
   head: {
-    title: 'MyAsylum',
+    title: 'Asylum',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
