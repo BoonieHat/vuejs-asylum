@@ -1,5 +1,6 @@
 
 export default {
+  buildDir: 'nuxt-dist',
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
