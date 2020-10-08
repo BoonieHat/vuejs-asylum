@@ -27,14 +27,14 @@ export default {
   --color-accent-light: #B3A259;
 
   --background-header: rgb(36, 43, 51);
-  --background-image: linear-gradient(0deg, rgba(23, 28, 33,1) 0%, rgba(25, 30, 36,1) 100%);
+  --background-image: rgb(25, 30, 36);
   --background-light: rgb(51, 61, 71);
   --background-middle: rgb(36, 43, 51);
   --background-front: rgb(23, 28, 33);
   --background-back: rgb(25, 30, 36);
   --background-footer: rgb(19, 22, 27);
 
-  --shadow-header: 0 6px 6px 0 rgba(0,0,0,0.1);
+  --shadow-header: 0 6px 6px 0 rgba(0,0,0,0.25);
 
   --shadow: 0 6px 6px 0 rgba(0,0,0,0.1);
   
@@ -43,22 +43,13 @@ export default {
   --button-primary-accent:rgb(179, 162, 89);
   --button-primary-accent-hover: #B3A259;
 }
-
-.home-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.home-logo svg {
-  height: 60px;
-  fill: var(--color-text);
-}
 .wrapperMain {
   flex: 1;
   display: flex;
   justify-content: flex-end;
   padding: 0px 300px;
   padding-top: 300px;
+  border-top: 40px solid var(--color-accent)
 }
 @media only screen and (max-width: 1600px) {
   .wrapperMain { 
@@ -76,7 +67,6 @@ export default {
   font-family: 'Inter', sans-serif;
   width: 100%;
   padding-bottom: 250px;
-  box-shadow: 0px -20px 50px rgba(0, 0, 0, 0.15);
   background: var(--background-front);
 }
 .contentRoot .headline {

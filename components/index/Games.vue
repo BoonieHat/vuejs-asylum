@@ -2,12 +2,13 @@
   <div class="asylum-move-up">
     <div class="asylum-between-home-wrapper">
       <div class="marginCenter">
+        <h1 class="server-header">OUR SERVERS</h1>
         <div class="asylum-between-home">
           <div class="game-card" style="background-image: url(/arma3.jpg) ">
             <a href="/arma3">
               <div class="game-overlay game-overlay-arma3">
                 <h3 class="game-title" alt="">
-                  ArmA 3
+                  Arma 3
                 </h3>
               </div>
             </a>
@@ -45,6 +46,15 @@ export default {
 </script>
 
 <style lang="css">
+.server-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--color-text);
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 .asylum-between-home {
   display: grid;
   column-gap: 30px;
@@ -54,7 +64,7 @@ export default {
 }
 
 .asylum-move-up {
-  margin-top: -60px;
+  margin-top: -140px;
   position: absolute;
   width: 100%;
 }
@@ -69,7 +79,7 @@ export default {
 .game-overlay {
   min-height: 275px;
   min-width: 225px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .game-card {
   font-family: 'Inter', sans-serif;
@@ -84,6 +94,14 @@ export default {
 .game-card:hover {
   background-size: 400%;
   transition: 0.5s;
+  -webkit-transform: translateY(-1em);
+          transform: translateY(-1em);
+}
+
+.game-card:hover .game-title {
+  font-size: 30px;
+  opacity: 1;
+  transition: 0.5s;
 }
 
 .game-card a {
@@ -92,9 +110,11 @@ export default {
 
 .game-card .game-title {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 900;
   display: flex;
   justify-content: center;
+  opacity: 0.9;
+  transition: 0.5s;
 }
 
 .game-overlay {
@@ -122,37 +142,38 @@ export default {
 
 .game-overlay-arma3 {
   background-image: linear-gradient(to bottom,
-   rgba(16, 179, 190, 0.3) 0%,
-   rgba(16, 179, 190,0.8) 25%, 
-   rgba(16, 179, 190,0.8) 75%,
-   rgba(16, 179, 190,0.3) 100%);
-  box-shadow: 0px 5px 10px rgba(70, 233, 233, 0.2);
+   rgba(46, 77, 105, 0.4) 0%,
+   rgba(46, 77, 105,1) 25%, 
+   rgba(46, 77, 105,1) 75%,
+   rgba(46, 77, 105,0.4) 100%);
+  box-shadow: 0px 5px 20px rgba(46, 77, 105, 0.4);
 }
+
 .game-overlay-arma3:hover {
-  box-shadow: 0px 5px 10px rgba(70, 233, 233, 0.6);
+  box-shadow: 0px -5px 10px rgba(46, 77, 105, 0.6);
 }
 
 .game-overlay-minecraft {
   background-image: linear-gradient(to bottom,
-   rgba(16, 190, 54, 0.3) 0%,
-   rgba(16, 190, 54,0.8) 25%, 
-   rgba(16, 190, 54,0.8) 75%,
-   rgba(16, 190, 54,0.3) 100%);
-  box-shadow: 0px 5px 10px rgba(16, 190, 54, 0.2);
+   rgba(16, 190, 54, 0.5) 0%,
+   rgba(16, 190, 54,1) 25%, 
+   rgba(16, 190, 54,1) 75%,
+   rgba(16, 190, 54,0.5) 100%);
+  box-shadow: 0px 5px 20px rgba(16, 190, 54, 0.4);
 }
 .game-overlay-minecraft:hover {
-  box-shadow: 0px 5px 10px rgba(16, 190, 54, 0.6);
+  box-shadow: 0px -5px 10px rgba(16, 190, 54, 0.6);
 }
 
 .game-overlay-fivem {
   background-image: linear-gradient(to bottom,
-   rgba(255, 180, 92, 0.3) 0%,
-   rgba(255, 180, 92,0.8) 25%, 
-   rgba(255, 180, 92,0.8) 75%,
-   rgba(255, 180, 92,0.3) 100%);
-  box-shadow: 0px 5px 10px rgba(255, 180, 92, 0.2);
+   rgba(255, 180, 92, 0.5) 0%,
+   rgba(255, 180, 92,1) 25%, 
+   rgba(255, 180, 92,1) 75%,
+   rgba(255, 180, 92,0.6) 100%);
+  box-shadow: 0px 5px 20px rgba(255, 180, 92, 0.4);
 }
 .game-overlay-fivem:hover {
-  box-shadow: 0px 5px 10px rgba(255, 180, 92, 0.6);
+  box-shadow: 0px -5px 10px rgba(255, 180, 92, 0.6);
 }
 </style>

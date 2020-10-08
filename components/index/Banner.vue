@@ -1,15 +1,13 @@
 <template>
   <div class="asylumcarousel">
     <div class="asylumimg">
-      <div class="marginCenter">
-        <div class="home-logo">
-          <Logo />
+      <div class="home-logo-container">
+          <div class="home-logo">
+            <h2 class="asylum-name">GAMING</h2>
+            <Logo />
+          </div>
+          <h2 class="catch-phrase">"I'M JUST A CATCH PHRASE"</h2>
         </div>
-        <h3>JOIN 185,828 OTHER UNIQUE PLAYERS</h3>
-        <a class="as-button teamspeak mt2rem" href="/play">Teamspeak</a>
-        <a class="as-button discord mt2rem" href="/play">Discord</a>
-        <a class="as-button primary mt2rem" href="/play">Forums</a>
-      </div>
     </div>
   </div>
 </template>
@@ -22,13 +20,47 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.home-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-logo svg {
+  height: 100%;
+  width: 220px;
+  padding-top: 5px;
+  fill: var(--color-accent);
+}
+
+.home-logo-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 85px;
+  z-index: 11;
+}
+
+.asylum-name {
+  color: var(--color-accent);
+  font-size: 56px;
+  font-weight: 900;
+  padding-right: 20px;
+}
+
+.catch-phrase {
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--color-text);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
 .asylumcarousel h1 { font-size: 68px; }
 .asylumcarousel h3 { font-size: 20px; }
 .asylumcarousel h3 { margin-top: 1rem; }
 .asylumcarousel {
   display: flex;
   font-family: 'Inter', sans-serif;
-  height: 400px;
+  height: 500px;
   background: var(--background-image);
   color: #fff;
 }

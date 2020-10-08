@@ -16,3 +16,9 @@
 .mbAuto { margin-bottom: auto; }
 .mlAuto { margin-left: auto; }
 .mrAuto { margin-right: auto; }
+
+.as-justify-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

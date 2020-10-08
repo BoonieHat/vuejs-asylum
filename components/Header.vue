@@ -59,6 +59,17 @@
       </li>
 
     </ul>
+
+    <div style="margin-left: auto;" class="asylum-login-item">
+      <a href="/auth/steam" aria-label="Sign In" class="asylum-login-button teamspeak item-content">
+        <span class="asylum-login-button-icon"><i class="fab fa-teamspeak"></i></span>
+        Teamspeak
+      </a>
+      <a href="/auth/steam" aria-label="Sign In" class="asylum-login-button discord item-content">
+        <span class="asylum-login-button-icon"><i class="fab fa-discord"></i></span>
+        Discord
+      </a>
+    </div>
   </nav>
 </div>
 </template>
@@ -71,6 +82,42 @@ export default {
 </script>
 
 <style lang="css">
+
+.asylum-login-item {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  line-height: 0;
+  min-width: 0;
+}
+
+.asylum-login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem 1rem;
+}
+
+.asylum-login-button.teamspeak {
+color: var(--button-primary-text-muted);
+  background: var(--media-teamspeak);
+}
+
+.asylum-login-button.discord {
+  color: var(--button-primary-text-muted);
+  background: var(--media-discord);
+}
+
+.asylum-login-button:hover {
+  text-decoration: none !important;
+}
+
+.asylum-login-button-icon {
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+
 .asylum-header {
   background: var(--background-header);
   position: relative;

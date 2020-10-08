@@ -34,7 +34,7 @@ export default {
   --background-back: #181818;
   --background-footer: #1F1F1F;
 
-  --shadow-header: 0 6px 6px 0 rgba(0,0,0,0.1);
+  --shadow-header: 0 6px 6px 0 rgba(0,0,0,0.25);
 
   --shadow: 0 6px 6px 0 rgba(0,0,0,0.1);
   
