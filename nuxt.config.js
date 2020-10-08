@@ -1,6 +1,15 @@
 export default {
+  target: 'server',
   head: {
-    title: "My Nuxt.js Application!"
+    title: 'MyAsylum',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'wip' }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ]
   }
 };
 //
