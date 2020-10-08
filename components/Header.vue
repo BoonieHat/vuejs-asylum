@@ -19,6 +19,36 @@
       </li>
 
       <li class="item">
+        <a href="/arma3" class="item-content">
+          <div class="label">
+            <div class="label-content">
+              <span class="name">Arma 3</span> 
+            </div>
+          </div>
+        </a>
+      </li>
+
+      <li class="item">
+        <a href="/minecraft" class="item-content">
+          <div class="label">
+            <div class="label-content">
+              <span class="name">Minecraft</span> 
+            </div>
+          </div>
+        </a>
+      </li>
+
+      <li class="item">
+        <a href="/fivem" class="item-content">
+          <div class="label">
+            <div class="label-content">
+              <span class="name">FiveM</span> 
+            </div>
+          </div>
+        </a>
+      </li>
+
+      <li class="item">
         <a href="https://gaming-asylum.com/forums" rel="noreferrer noopener" class="item-content">
           <div class="label">
             <div class="label-content">
@@ -79,7 +109,7 @@ export default {
 }
 
 .asylum-header .item .item-content.active .label .name {
-  color: var(--color-text) !important;
+  color: var(--color-muted) !important;
 }
 
 .asylum-header .item .item-content.active {

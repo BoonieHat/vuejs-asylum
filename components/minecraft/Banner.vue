@@ -49,8 +49,10 @@ export default {
   bottom: 0px;
   left: 0px;
   content: "";
-  background-image: url("https://liveatpc.com/wp-content/uploads/2020/04/EVM3jwsUEAI-MXR.jpg");
-  background-size: cover;
-  opacity: 0.2;
+  background-image: url("/minecraft.jpg");
+  background-size: 100%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
 }
 </style>

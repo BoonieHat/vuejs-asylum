@@ -2,18 +2,18 @@
   --color-text: #fff;
   --color-muted: rgba(230, 230, 230, 0.75);
 
-  --color-accent: #209aeb;
-  --color-accent-light: #36a3eb;
+  --color-accent: #80D5FF;
+  --color-accent-light: #80D5FF;
   --color-accent-opacity: rgba(32, 154, 235,0.7);
 
-  --color-light: #2c2c2c;
+  --color-light: #475666;
   --color-light-opacity: rgb(61, 61, 61,0.4);
 
   --color-middle: #4C545C;
 
-  --color-front: #252525;
+  --color-front: #2D3640;
 
-  --color-back: #202020;
+  --color-back: #1E242B;
   --color-back-opacity: rgba(23, 23, 23,0.8);
 
   --color-dark: #181818;
@@ -22,8 +22,8 @@
   
   --button-primary-text: #fff;
   --button-primary-text-muted: #ebebeb;
-  --button-primary-accent:#1480c8;
-  --button-primary-accent-hover: #209aeb;
+  --button-primary-accent:#80D5FF;
+  --button-primary-accent-hover: #80D5FF;
 }
 
 :root {

@@ -49,8 +49,10 @@ export default {
   bottom: 0px;
   left: 0px;
   content: "";
-  background-image: url("https://arma3.com/assets/img/wallpapers/tacops/2/Arma%203%20Tac-Ops_wallpaper_1080x1920.jpg");
-  background-size: cover;
-  opacity: 0.2;
+  background-image: url("/arma3.jpg");
+  background-size: 100%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
 }
 </style>

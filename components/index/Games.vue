@@ -3,7 +3,7 @@
     <div class="asylum-between-home-wrapper">
       <div class="marginCenter">
         <div class="asylum-between-home">
-          <div class="game-card" style="background-image: url(https://arma3.com/assets/img/wallpapers/tacops/2/Arma%203%20Tac-Ops_wallpaper_1080x1920.jpg) ">
+          <div class="game-card" style="background-image: url(/arma3.jpg) ">
             <a href="/arma3">
               <div class="game-overlay game-overlay-arma3">
                 <h3 class="game-title" alt="">
@@ -13,7 +13,7 @@
             </a>
           </div>
 
-          <div class="game-card" style="background-image: url(https://liveatpc.com/wp-content/uploads/2020/04/EVM3jwsUEAI-MXR.jpg) ">
+          <div class="game-card" style="background-image: url(/minecraft.jpg) ">
             <a href="/minecraft">
               <div class="game-overlay game-overlay-minecraft">
                 <h3 class="game-title" alt="">
@@ -23,7 +23,7 @@
             </a>
           </div>
 
-          <div class="game-card" style="background-image: url(https://forum.fivem.net/uploads/default/original/3X/5/a/5a204c8cf38461cb641dc2ade6e8d58747e3f833.jpeg) ">
+          <div class="game-card" style="background-image: url(/fivem.jpg) ">
             <a href="/fivem">
               <div class="game-overlay game-overlay-fivem">
                 <h3 class="game-title" alt="">
@@ -77,11 +77,12 @@ export default {
   background: #111;
   grid-column-start: auto;
   grid-row-start: auto;
-  background-size: 150%;
+
+  background-size: 300%;
 }
 
 .game-card:hover {
-  background-size: 300%;
+  background-size: 400%;
   transition: 0.5s;
 }
 

@@ -49,8 +49,10 @@ export default {
   bottom: 0px;
   left: 0px;
   content: "";
-  background-image: url("https://forum.fivem.net/uploads/default/original/3X/5/a/5a204c8cf38461cb641dc2ade6e8d58747e3f833.jpeg");
-  background-size: cover;
-  opacity: 0.2;
+  background-image: url("/fivem.jpg");
+  background-size: 100%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
 }
 </style>
