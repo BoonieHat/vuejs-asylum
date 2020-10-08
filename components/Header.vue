@@ -9,7 +9,7 @@
     <ul>
 
       <li class="item">
-        <a href="/" class="item-content">
+        <a href="/" class="item-content active">
           <div class="label">
             <div class="label-content">
               <span class="name">Home</span> 
@@ -72,7 +72,7 @@ export default {
 
 <style lang="css">
 .asylum-header {
-  background: var(--color-front);
+  background: var(--background-header);
   position: relative;
   position: -webkit-sticky;
   position: sticky;
@@ -84,7 +84,7 @@ export default {
   width: 100%;
   min-width: 100%;
   height: 60px;
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-header);
 }
 
 .asylum-header nav {
@@ -93,7 +93,7 @@ export default {
   height: 100%;
   width: 100%;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .header-logo {
@@ -109,7 +109,7 @@ export default {
 }
 
 .asylum-header .item .item-content.active .label .name {
-  color: var(--color-muted) !important;
+  color: var(--color-text) !important;
 }
 
 .asylum-header .item .item-content.active {
@@ -120,10 +120,13 @@ export default {
   border-bottom: 3px solid transparent;
 }
 
-.asylum-header .item .item-content:hover {
+.asylum-header .item .item-content:hover .label .name {
   color: var(--color-text) !important;
-  border-bottom: 3px solid var(--color-light);
-  background: var(--color-light);
+}
+
+.asylum-header .item .item-content:hover {
+  border-bottom: 3px solid var(--background-light);
+  background: var(--background-back);
 }
 
 

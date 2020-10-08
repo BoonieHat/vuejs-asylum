@@ -32,7 +32,7 @@ export default {
 }
 </script>
 
-<style land="css">
+<style land="css" scoped>
 .articles {
   display: grid;
   column-gap: 30px;

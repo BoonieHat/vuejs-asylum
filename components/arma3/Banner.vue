@@ -8,7 +8,7 @@
         <h3>JOIN 185,828 OTHER UNIQUE PLAYERS</h3>
         <a class="as-button teamspeak mt2rem" href="/play">Teamspeak</a>
         <a class="as-button discord mt2rem" href="/play">Discord</a>
-        <a class="as-button forum mt2rem" href="/play">Forums</a>
+        <a class="as-button primary mt2rem" href="/play">Forums</a>
       </div>
     </div>
   </div>
@@ -22,11 +22,14 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.asylumcarousel h1 { font-size: 68px; }
+.asylumcarousel h3 { font-size: 20px; }
+.asylumcarousel h3 { margin-top: 1rem; }
 .asylumcarousel {
   display: flex;
   font-family: 'Inter', sans-serif;
   height: 400px;
-  background-color: var(--color-dark);
+  background: var(--background-image);
   color: #fff;
 }
 
@@ -50,9 +53,7 @@ export default {
   left: 0px;
   content: "";
   background-image: url("/arma3.jpg");
-  background-size: 100%;
-  background-position-x: center;
-  background-repeat: no-repeat;
-  opacity: 0.3;
+  background-size: cover;
+  opacity: 0.2;
 }
 </style>
