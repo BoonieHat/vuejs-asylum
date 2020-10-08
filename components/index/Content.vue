@@ -8,10 +8,15 @@
         </h1>
         <div class="articles">
           <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
-        <button class="buttonPrimary mt2rem">
-          <a>LOAD MORE</a>
-        </button>
+        <a class="as-button primary mt2rem">
+          LOAD MORE
+        </a>
       </div>
     </div>
   </div>

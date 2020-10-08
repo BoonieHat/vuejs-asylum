@@ -1,6 +1,6 @@
 <template>
   <div class="asylumcarousel">
-    <div class="asylumimg" style="background-image: url(./testbanner.jpg)">
+    <div class="asylumimg">
       <div class="marginCenter">
         <div class="home-logo">
           <AsylumLogo />
