@@ -58,12 +58,12 @@ export default {
   display: flex;
   justify-content: flex-end;
   padding: 0px 300px;
-  padding-top: 300px;
+  padding-top: 50px;
 }
 @media only screen and (max-width: 1600px) {
   .wrapperMain { 
     padding: 0px 0px !important;
-    padding-top: 300px !important;
+    padding-top: 50px !important;
   }
 }
 .marginCenter {

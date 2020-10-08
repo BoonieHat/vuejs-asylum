@@ -54,6 +54,6 @@ export default {
   content: "";
   background-image: url("/minecraft.jpg");
   background-size: cover;
-  opacity: 0.2;
+  opacity: 0.4;
 }
 </style>

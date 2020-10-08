@@ -54,6 +54,6 @@ export default {
   content: "";
   background-image: url("/fivem.jpg");
   background-size: cover;
-  opacity: 0.2;
+  opacity: 0.4;
 }
 </style>

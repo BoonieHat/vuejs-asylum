@@ -54,6 +54,6 @@ export default {
   content: "";
   background-image: url("/arma3.jpg");
   background-size: cover;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 </style>
