@@ -1,7 +1,10 @@
-<template>
-  <div class="contentRoot">
+<template scoped>
+  <div class="contentRoot minecraft-content">
+    <div class="skyblock">
+      <img src="/skyblock.png"/>
+    </div>
     <div class="wrapperMain">
-      <div class="marginCenter">
+      <div class="margin-center">
         <h1 class="headline">
           RECENT NEWS
         </h1>
@@ -22,7 +25,7 @@
 </template>
 
 <script>
-import Card from '~/components/index/Card.vue'
+import Card from './Card.vue'
 
 export default {
   name: 'Content',
@@ -33,6 +36,30 @@ export default {
 </script>
 
 <style land="css" scoped>
+.minecraft-content::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: "";
+  background-image: url("/minecraft-content.png");
+  background-size: 25%;
+  opacity: 0.25;
+}
+
+.skyblock {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: -100px;
+  user-select: none;
+}
+
+.skyblock img {
+  width: 225px;
+}
+
 .articles {
   display: grid;
   column-gap: 30px;

@@ -1,7 +1,7 @@
 <template>
   <div class="asylum-move-up">
     <div class="asylum-between-home-wrapper">
-      <div class="marginCenter">
+      <div class="margin-center">
         <h1 class="server-header">OUR SERVERS</h1>
         <div class="asylum-between-home">
           <div class="game-card" style="background-image: url(/arma3.jpg) ">

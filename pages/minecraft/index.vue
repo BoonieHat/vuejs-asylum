@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import Header from '~/components/Header.vue'
-import Banner from '~/components/minecraft/Banner.vue'
-import Content from '~/components/minecraft/Content.vue'
+import Header from '~/components/minecraft/Header.vue'
+import Banner from '~/components/minecraft/index/Banner.vue'
+import Content from '~/components/minecraft/index/Content.vue'
 export default {
   components: {
     Header,
@@ -65,11 +65,6 @@ export default {
     padding: 0px 0px !important;
     padding-top: 50px !important;
   }
-}
-.marginCenter {
-  text-align: center;
-  margin: auto;
-  position: relative;
 }
 
 .contentRoot {

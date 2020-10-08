@@ -1,7 +1,7 @@
 <template>
   <div class="asylumcarousel">
     <div class="asylumimg">
-      <div class="marginCenter">
+      <div class="margin-center">
         <div class="home-logo">
           <Logo />
         </div>

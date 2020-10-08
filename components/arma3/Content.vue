@@ -1,7 +1,7 @@
 <template>
   <div class="contentRoot">
     <div class="wrapperMain">
-      <div class="marginCenter">
+      <div class="margin-center">
         <h1 class="headline">
           RECENT NEWS
         </h1>

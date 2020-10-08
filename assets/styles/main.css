@@ -22,3 +22,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.margin-center {
+  text-align: center;
+  margin: auto;
+  position: relative;
+}

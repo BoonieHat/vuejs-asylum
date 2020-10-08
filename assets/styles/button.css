@@ -36,6 +36,10 @@
   font-size: 18px;
 }
 
+.icon-button {
+  padding-right: 7px;
+}
+
 .as-button.primary {
   color: var(--button-primary-text-muted);
   background: var(--button-primary-accent);
@@ -95,4 +99,54 @@
 .as-button.secondary:hover {
   color: var(--color-text);
   background: var(--color-light);
+}
+
+
+
+.asylum-login-item {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  line-height: 0;
+  min-width: 0;
+}
+
+.asylum-login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem 1rem;
+}
+
+.asylum-login-button.primary {
+  color: var(--color-text);
+  background: var(--color-accent);
+}
+.asylum-login-button.primary:hover {
+  box-shadow: 0 0.4em 1em -0.4em var(--color-accent);
+}
+
+.asylum-login-button.teamspeak {
+  color: var(--color-text);
+  background: var(--media-teamspeak);
+}
+.asylum-login-button.teamspeak:hover {
+  box-shadow: 0 0.4em 1em -0.4em var(--media-teamspeak);
+}
+
+.asylum-login-button.discord {
+  color: var(--color-text);
+  background: var(--media-discord);
+}
+.asylum-login-button.discord:hover {
+  box-shadow: 0 0.4em 1em -0.4em var(--media-discord);
+}
+
+.asylum-login-button:hover {
+  text-decoration: none !important;
+}
+
+.asylum-login-button-icon {
+  font-size: 18px;
+  padding-right: 10px;
 }

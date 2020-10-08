@@ -1,21 +1,18 @@
 <template>
   <div class="asylumcarousel">
     <div class="asylumimg">
-      <div class="marginCenter">
+      <div class="margin-center">
         <div class="home-logo">
-          <Logo />
+          <img src="/logo-minecraft.png"/>
         </div>
-        <h3>JOIN 185,828 OTHER UNIQUE PLAYERS</h3>
-        <a class="as-button teamspeak mt2rem" href="/play">Teamspeak</a>
-        <a class="as-button discord mt2rem" href="/play">Discord</a>
-        <a class="as-button primary mt2rem" href="/play">Forums</a>
+        <h3></h3>
+        <input class="as-button primary mt1rem" href="/minecraft/play" value="asylum-minecraft.com"/>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '../Logo.vue'
 export default {
   name: 'Banner'
 }
@@ -43,6 +40,10 @@ export default {
   -ms-flex-pack: center !important;
   justify-content: center !important;
   background-position-x: center;
+}
+
+.home-logo img {
+  width: 350px;
 }
 
 .asylumimg::before {

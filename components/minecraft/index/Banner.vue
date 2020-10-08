@@ -3,25 +3,24 @@
     <div class="asylumimg">
       <div class="margin-center">
         <div class="home-logo">
-          <Logo />
+          <img src="/logo-minecraft.png"/>
         </div>
-        <h3>JOIN 185,828 OTHER UNIQUE PLAYERS</h3>
-        <a class="as-button teamspeak mt2rem" href="/play">Teamspeak</a>
-        <a class="as-button discord mt2rem" href="/play">Discord</a>
-        <a class="as-button primary mt2rem" href="/play">Forums</a>
+        <h3>A FUN MINECRAFT SKYBLOCK EXPERIENCE!</h3>
+        <a class="as-button primary mt1rem" href="/minecraft/play">
+          <i class="icon-button fas fa-play"></i>PLAY NOW
+        </a>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '../Logo.vue'
 export default {
   name: 'Banner'
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .asylumcarousel h1 { font-size: 68px; }
 .asylumcarousel h3 { font-size: 20px; }
 .asylumcarousel h3 { margin-top: 1rem; }
@@ -45,6 +44,10 @@ export default {
   background-position-x: center;
 }
 
+.home-logo img {
+  width: 350px;
+}
+
 .asylumimg::before {
   position: absolute;
   top: 0px;
@@ -52,7 +55,7 @@ export default {
   bottom: 0px;
   left: 0px;
   content: "";
-  background-image: url("/fivem.jpg");
+  background-image: url("/minecraft.jpg");
   background-size: cover;
   opacity: 0.4;
 }

@@ -66,11 +66,6 @@ export default {
     padding-top: 50px !important;
   }
 }
-.marginCenter {
-  text-align: center;
-  margin: auto;
-  position: relative;
-}
 
 .contentRoot {
   font-family: 'Inter', sans-serif;
