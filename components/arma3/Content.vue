@@ -1,6 +1,5 @@
 <template>
   <div class="contentRoot">
-    <Games />
     <div class="wrapperMain">
       <div class="marginCenter">
         <h1 class="headline">
@@ -23,7 +22,6 @@
 </template>
 
 <script>
-import Games from '~/components/index/Games.vue'
 import Card from '~/components/index/Card.vue'
 
 export default {

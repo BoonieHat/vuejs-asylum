@@ -11,14 +11,14 @@
 
   --color-middle: #4C545C;
 
-  --color-front: #34353a;
+  --color-front: #252525;
 
-  --color-back: #2e2f33;
+  --color-back: #202020;
   --color-back-opacity: rgba(23, 23, 23,0.8);
 
-  --color-dark: #282a2c;
+  --color-dark: #181818;
 
-  --shadow: 0 6px 6px 0 rgba(0,0,0,.2);
+  --shadow: 0 6px 6px 0 rgba(0,0,0,0.1);
   
   --button-primary-text: #fff;
   --button-primary-text-muted: #ebebeb;

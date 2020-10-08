@@ -1,8 +1,12 @@
 .as-button {
   font-family: 'Inter', sans-serif;
   user-select: none;
+
+  font-size: 18px;
   font-weight: 600;
-  font-size: 16px;
+  letter-spacing: 0.05em;
+
+
   -webkit-appearance: none;
   text-shadow: none;
   display: inline-block;

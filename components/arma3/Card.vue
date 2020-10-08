@@ -1,115 +1,31 @@
-.asylum-between-home {
-  display: grid;
-  column-gap: 30px;
-  row-gap: 30px;
-  grid-template-columns: repeat(3,1fr);
-  width: 100%;
-}
+<template>
+  <div class="card" style="background-image: ">
+    <a href="props.link">
+      <div class="gradientOverlay">
+        <h3 class="articleTitle" alt="">
+          {props.headline}
+        </h3>
 
-.asylum-move-up {
-  margin-top: -60px;
-  position: absolute;
-  width: 100%;
-}
+        <article class="mtAuto}">
+          <h3 alt="">
+            {props.type}
+          </h3>
+          <h3 alt="">
+            {props.date}
+          </h3>
+        </article>
+      </div>
+    </a>
+  </div>
+</template>
 
-.asylum-between-home-wrapper {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
+<script>
+export default {
+  name: 'Card'
 }
+</script>
 
-
-.game-card {
-  font-family: 'Inter', sans-serif;
-  border-radius: 10px;
-  transition: 0.5s;
-  background: #111;
-  grid-column-start: auto;
-  grid-row-start: auto;
-  background-size: 150%;
-  min-height: 250px;
-  min-width: 200px;
-}
-
-.game-card:hover {
-  background-size: 300%;
-  transition: 0.5s;
- }
-
-.game-card a {
-  text-decoration: none;
-}
-
-.game-card .game-title {
-  font-size: 26px;
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
-}
-
-.game-overlay {
-  border-radius: 10px;
-  cursor: pointer;
-  min-height: 250px;
-  min-width: 200px;
-  padding: 25px;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  background-size: 100% 400%;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-  z-index: 10;
-}
-
-.game-overlay:hover {
-  background-position: 0 100%;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-
-.game-overlay:hover h3 {
-  opacity: 1;
-}
-
-.game-overlay-arma3 {
-  background-image: linear-gradient(to bottom,
-   rgba(16, 179, 190, 0.3) 0%,
-   rgba(16, 179, 190,0.8) 25%, 
-   rgba(16, 179, 190,0.8) 75%,
-   rgba(16, 179, 190,0.3) 100%);
-  box-shadow: 0px 5px 10px rgba(70, 233, 233, 0.2);
-}
-.game-overlay-arma3:hover {
-  box-shadow: 0px 5px 10px rgba(70, 233, 233, 0.6);
-}
-
-.game-overlay-minecraft {
-  background-image: linear-gradient(to bottom,
-   rgba(16, 190, 54, 0.3) 0%,
-   rgba(16, 190, 54,0.8) 25%, 
-   rgba(16, 190, 54,0.8) 75%,
-   rgba(16, 190, 54,0.3) 100%);
-  box-shadow: 0px 5px 10px rgba(16, 190, 54, 0.2);
-}
-.game-overlay-minecraft:hover {
-  box-shadow: 0px 5px 10px rgba(16, 190, 54, 0.6);
-}
-
-.game-overlay-fivem {
-  background-image: linear-gradient(to bottom,
-   rgba(255, 180, 92, 0.3) 0%,
-   rgba(255, 180, 92,0.8) 25%, 
-   rgba(255, 180, 92,0.8) 75%,
-   rgba(255, 180, 92,0.3) 100%);
-  box-shadow: 0px 5px 10px rgba(255, 180, 92, 0.2);
-}
-.game-overlay-fivem:hover {
-  box-shadow: 0px 5px 10px rgba(255, 180, 92, 0.6);
-}
-
+<style land="css">
 .card {
   font-family: 'Inter', sans-serif;
   border-radius: 10px;
@@ -144,14 +60,6 @@
   line-height: 1.125;
   font-weight: 700;
   letter-spacing: .05em;
-}
-
-.articles {
-  display: grid;
-  column-gap: 30px;
-  row-gap: 30px;
-  grid-template-columns: repeat(3,1fr);
-  width: 100%;
 }
 
 .gradientOverlay {
@@ -236,41 +144,4 @@
 .card:nth-child(6n+6) .gradientOverlay:hover {
   box-shadow: 0px 10px 10px rgba(237, 224, 36, 0.9);
 }
-
-
-@media only screen and (max-width: 1600px) {
-  .gradientOverlay {
-    width: 250px;
-    height: 250px;
-    padding: 20px;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .gradientOverlay {
-    width: 200px;
-    height: 200px;
-    padding: 15px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .card .gradientOverlay {
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-  }
-  .card .articleTitle, .card article h3 {
-    font-size: 16px;
-  }
-  .articles {
-    column-gap: 15px !important;
-    row-gap: 15px !important;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .articles {
-    grid-template-columns: repeat(2,1fr) !important;
-  }
-}
+</style>

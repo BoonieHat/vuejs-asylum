@@ -9,7 +9,7 @@
     <ul>
 
       <li class="item">
-        <a href="/home" class="item-content">
+        <a href="/" class="item-content">
           <div class="label">
             <div class="label-content">
               <span class="name">Home</span> 

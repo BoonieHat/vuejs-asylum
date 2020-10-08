@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .asylumcarousel {
   display: flex;
   font-family: 'Inter', sans-serif;
@@ -49,7 +49,7 @@ export default {
   bottom: 0px;
   left: 0px;
   content: "";
-  background-image: url("/pattern.png");
+  background-image: url("https://forum.fivem.net/uploads/default/original/3X/5/a/5a204c8cf38461cb641dc2ade6e8d58747e3f833.jpeg");
   background-size: cover;
   opacity: 0.2;
 }

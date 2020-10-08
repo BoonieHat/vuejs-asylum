@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .asylumcarousel {
   display: flex;
   font-family: 'Inter', sans-serif;
@@ -49,7 +49,7 @@ export default {
   bottom: 0px;
   left: 0px;
   content: "";
-  background-image: url("/pattern.png");
+  background-image: url("https://arma3.com/assets/img/wallpapers/tacops/2/Arma%203%20Tac-Ops_wallpaper_1080x1920.jpg");
   background-size: cover;
   opacity: 0.2;
 }

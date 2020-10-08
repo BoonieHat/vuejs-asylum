@@ -1,8 +1,3 @@
-.asylumbgjetblack { background-color: #000; }
-.asylumbgjetwhite { background-color: #fff; }
-.asylumjetblack { color: #000;}
-.asylumjetwhite { color: #fff;}
-
 .dinlineblock { display: inline-block; }
 
 .m2rem { margin: 2rem; }
@@ -26,31 +21,3 @@
 .asylumcarousel h1 { font-size: 68px; }
 .asylumcarousel h3 { font-size: 20px; }
 .asylumcarousel h3 { margin-top: 1rem; }
-
-.asylumcarousel .asylumimg {
-  width: 100%;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center !important;
-  -ms-flex-pack: center !important;
-  justify-content: center !important;
-  background-position-x: center;
-}
-
-.asylumimg::before {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  content: "";
-  background-image: url("/pattern.png");
-  background-size: cover;
-  opacity: 0.2;
-}
-
-.asylumcarousel {
-  background-color: var(--color-dark);
-}
