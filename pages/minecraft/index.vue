@@ -1,6 +1,7 @@
 <template>
   <div>
     <Header />
+    <HeaderMini />
     <Banner />
     <Content />
   </div>
@@ -8,6 +9,7 @@
 
 <script>
 import Header from '~/components/minecraft/Header.vue'
+import HeaderMini from '~/components/minecraft/HeaderMini.vue'
 import Banner from '~/components/minecraft/index/Banner.vue'
 import Content from '~/components/minecraft/index/Content.vue'
 export default {
