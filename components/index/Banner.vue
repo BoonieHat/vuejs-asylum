@@ -3,7 +3,7 @@
     <div class="asylumimg">
       <div class="marginCenter">
         <div class="home-logo">
-          <AsylumLogo />
+          <Logo />
         </div>
         <h3>JOIN 185,828 OTHER UNIQUE PLAYERS</h3>
         <a class="as-button teamspeak mt2rem" href="/play">Teamspeak</a>
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import AsylumLogo from '../asylumLogo.vue'
+import Logo from '../Logo.vue'
 export default {
   name: 'Banner'
 }

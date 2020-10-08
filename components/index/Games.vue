@@ -39,7 +39,6 @@
 </template>
 
 <script>
-import Card from '~/components/index/Card.vue'
 export default {
   name: 'Games'
 }

@@ -61,7 +61,7 @@
 
 <script>
 export default {
-  name: 'AsylumLogo'
+  name: 'Logo'
 }
 </script>
 

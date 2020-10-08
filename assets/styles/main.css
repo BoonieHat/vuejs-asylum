@@ -46,7 +46,7 @@
   bottom: 0px;
   left: 0px;
   content: "";
-  background-image: url("http://localhost:3000/pattern.png");
+  background-image: url("/pattern.png");
   background-size: cover;
   opacity: 0.2;
 }
