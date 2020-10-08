@@ -1,12 +1,12 @@
 {
-  "name": "AsylumMinecraftWebsite",
+  "name": "asylum",
   "version": "1.0.0",
   "description": "Nuxt.js project",
   "author": "BoonieHat <38331628+BoonieHat@users.noreply.github.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "yarn lint:js",
