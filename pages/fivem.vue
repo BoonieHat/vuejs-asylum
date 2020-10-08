@@ -1,6 +1,7 @@
 <template>
   <div>
     <Header />
+    <HeaderMiniFiveM />
     <Banner />
     <Content />
   </div>
@@ -8,11 +9,13 @@
 
 <script>
 import Header from '~/components/Header.vue'
+import HeaderMiniFiveM from '~/components/fivem/HeaderMini.vue'
 import Banner from '~/components/fivem/Banner.vue'
 import Content from '~/components/fivem/Content.vue'
 export default {
   components: {
     Header,
+    HeaderMiniFiveM,
     Banner,
     Content
   }

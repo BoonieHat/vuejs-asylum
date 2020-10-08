@@ -37,7 +37,7 @@
         <a href="/minecraft/voting" class="item-content">
           <div class="label">
             <div class="label-content">
-              <span class="name">Voting</span> 
+              <span class="name">MyAsylum</span> 
             </div>
           </div>
         </a>
@@ -50,7 +50,7 @@
 
 <script>
 export default {
-  name: 'HeaderMiniMinecraft'
+  name: 'HeaderMiniArma'
 }
 </script>
 
