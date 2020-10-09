@@ -1,6 +1,6 @@
 <template>
-  <div class="card" style="background-image: ">
-    <a href="props.link">
+  <div class="card" style="background-image: {props.image}">
+    <a href="{props.link}">
       <div class="gradientOverlay">
         <h3 class="articleTitle" alt="">
           {props.headline}
