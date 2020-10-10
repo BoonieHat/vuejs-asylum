@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <Header navFivem=true />
     <HeaderMiniFiveM />
     <Banner />
     <Content />

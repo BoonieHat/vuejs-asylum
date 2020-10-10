@@ -9,7 +9,7 @@
     <ul>
 
       <li class="item">
-        <a href="/" class="item-content active">
+        <a href="/" class="item-content" v-bind:class="{ active: navHome }">
           <div class="label">
             <div class="label-content">
               <span class="name">Home</span> 
@@ -19,7 +19,7 @@
       </li>
 
       <li class="item">
-        <a href="/arma3" class="item-content">
+        <a href="/arma3" class="item-content" v-bind:class="{ active: navArma }">
           <div class="label">
             <div class="label-content">
               <span class="name">Arma 3</span> 
@@ -29,7 +29,7 @@
       </li>
 
       <li class="item">
-        <a href="/minecraft" class="item-content">
+        <a href="/minecraft" class="item-content" v-bind:class="{ active: navMinecraft }">
           <div class="label">
             <div class="label-content">
               <span class="name">Minecraft</span> 
@@ -39,7 +39,7 @@
       </li>
 
       <li class="item">
-        <a href="/fivem" class="item-content">
+        <a href="/fivem" class="item-content" v-bind:class="{ active: navFivem }">
           <div class="label">
             <div class="label-content">
               <span class="name">FiveM</span> 
@@ -77,7 +77,8 @@
 <script>
 import Logo from './Logo.vue'
 export default {
-  name: 'Header'
+  name: 'Header',
+  props: ['navHome', 'navArma', 'navMinecraft', 'navFivem']
 }
 </script>
 

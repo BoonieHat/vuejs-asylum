@@ -40,7 +40,8 @@
 
 <script>
 export default {
-  name: 'HeaderMiniFiveM'
+  name: 'HeaderMiniFiveM',
+  props: ['navArmaHome', 'navArmaPlay', 'navArmaVoting']
 }
 </script>
 

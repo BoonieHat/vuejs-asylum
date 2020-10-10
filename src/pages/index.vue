@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <Header navHome=true />
     <Banner />
     <Content />
   </div>

@@ -50,7 +50,8 @@
 
 <script>
 export default {
-  name: 'HeaderMiniArma'
+  name: 'HeaderMiniArma',
+  props: ['navArmaHome', 'navArmaPlay', 'navArmaVoting']
 }
 </script>
 

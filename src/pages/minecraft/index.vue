@@ -1,14 +1,14 @@
 <template>
   <div>
-    <Header />
-    <HeaderMiniMinecraft />
+    <Header navMinecraft=true />
+    <HeaderMiniMinecraft navMinecraftHome=true />
     <Banner />
     <Content />
   </div>
 </template>
 
 <script>
-import Header from '~/components/minecraft/Header.vue'
+import Header from '~/components/Header.vue'
 import HeaderMiniMinecraft from '~/components/minecraft/HeaderMini.vue'
 import Banner from '~/components/minecraft/index/Banner.vue'
 import Content from '~/components/minecraft/index/Content.vue'

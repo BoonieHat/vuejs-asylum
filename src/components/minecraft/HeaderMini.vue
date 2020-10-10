@@ -4,7 +4,7 @@
     <ul>
 
       <li class="item">
-        <a href="/minecraft" class="item-content active">
+        <a href="/minecraft" class="item-content" v-bind:class="{ active: navMinecraftHome }">
           <div class="label">
             <div class="label-content">
               <span class="name">Home</span> 
@@ -14,10 +14,20 @@
       </li>
 
       <li class="item">
-        <a href="/minecraft/play" class="item-content">
+        <a href="/minecraft/play" class="item-content" v-bind:class="{ active: navMinecraftPlay }">
           <div class="label">
             <div class="label-content">
               <span class="name">Play Now</span> 
+            </div>
+          </div>
+        </a>
+      </li>
+
+      <li class="item">
+        <a href="/minecraft/voting" class="item-content" v-bind:class="{ active: navMinecraftVoting }">
+          <div class="label">
+            <div class="label-content">
+              <span class="name">Voting</span> 
             </div>
           </div>
         </a>
@@ -33,16 +43,6 @@
         </a>
       </li>
 
-      <li class="item">
-        <a href="/minecraft/voting" class="item-content">
-          <div class="label">
-            <div class="label-content">
-              <span class="name">Voting</span> 
-            </div>
-          </div>
-        </a>
-      </li>
-
     </ul>
   </nav>
 </div>
@@ -50,7 +50,8 @@
 
 <script>
 export default {
-  name: 'HeaderMiniMinecraft'
+  name: 'HeaderMiniMinecraft',
+  props: ['navMinecraftHome', 'navMinecraftPlay', 'navMinecraftVoting']
 }
 </script>
 
