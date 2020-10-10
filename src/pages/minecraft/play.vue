@@ -24,6 +24,7 @@ export default {
 </script>
 
 <style lang="css">
+@import "~/assets/styles/minecraft.css";
 .home-logo {
   display: flex;
   justify-content: center;
