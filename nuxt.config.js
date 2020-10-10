@@ -9,7 +9,14 @@ export default {
       { hid: 'description', name: 'description', content: 'wip' }
     ],
     script: [{src: 'https://kit.fontawesome.com/fb1eb6ccbc.js'}],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    render: {
+      bundleRenderer: {
+        shouldPreload: (file, type) => {
+          return ['script', 'style', 'font'].includes(type)
+        }
+      }
+    }
   },
   components: true,
 };

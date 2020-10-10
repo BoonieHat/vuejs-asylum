@@ -13,7 +13,7 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
+<style lang="css">
   @import "../assets/styles/main.css";
   @import "../assets/styles/button.css";
 </style>
