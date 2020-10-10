@@ -4,10 +4,12 @@
 
 <script>
 export default {
+  target: 'server',
   head: {
     htmlAttrs: {
       lang: 'en',
       style: `
+      :root {
         --color-text: #fff;
         --color-muted: rgba(230, 230, 230, 0.75);
         --color-accent: #34AA2F;
@@ -25,6 +27,7 @@ export default {
         --button-primary-text-muted: #ebebeb;
         --button-primary-accent: #34AA2F;
         --button-primary-accent-hover: #34AA2F;
+      }
       `
     },
     link: [{
