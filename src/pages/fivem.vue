@@ -28,7 +28,6 @@ export default {
   --color-muted: rgba(230, 230, 230, 0.75);
   --color-accent: #F68B40;
   --color-accent-light: #F68B40;
-
   --background-header: #111111;
   --background-image: linear-gradient(0deg, rgba(23, 28, 33,1) 0%, rgba(25, 30, 36,1) 100%);
   --background-light: #4B535A;
@@ -36,11 +35,8 @@ export default {
   --background-front: #111111;
   --background-back: #111111;
   --background-footer: #111111;
-
   --shadow-header: 0 6px 6px 0 rgba(0,0,0,0.4);
-
   --shadow: 0 6px 6px 0 rgba(0,0,0,0.1);
-  
   --button-primary-text: #fff;
   --button-primary-text-muted: #ebebeb;
   --button-primary-accent: #F68B40;
