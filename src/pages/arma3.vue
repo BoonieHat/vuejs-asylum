@@ -13,7 +13,6 @@ import HeaderMiniArma from '~/components/arma3/HeaderMini.vue'
 import Banner from '~/components/arma3/Banner.vue'
 import Content from '~/components/arma3/Content.vue'
 export default {
-  layout: 'arma3',
   components: {
     Header,
     HeaderMiniArma,
@@ -24,6 +23,30 @@ export default {
 </script>
 
 <style lang="css">
+:root {
+  --color-text: #fff;
+  --color-muted: rgba(230, 230, 230, 0.75);
+  --color-accent: #2B9FEA;
+  --color-accent-light: #2B9FEA;
+
+  --background-header: #1F1F1F;
+  --background-image: linear-gradient(0deg, rgba(23, 28, 33,1) 0%, rgba(25, 30, 36,1) 100%);
+  --background-light: #3D3D3D;
+  --background-middle: #3D3D3D;
+  --background-front: #171717;
+  --background-back: #171717;
+  --background-footer: #171717;
+
+  --shadow-header: 0 6px 6px 0 rgba(0,0,0,0.25);
+
+  --shadow: 0 6px 6px 0 rgba(0,0,0,0.1);
+  
+  --button-primary-text: #fff;
+  --button-primary-text-muted: #ebebeb;
+  --button-primary-accent:#2B9FEA;
+  --button-primary-accent-hover: #2B9FEA;
+}
+
 .home-logo {
   display: flex;
   justify-content: center;
