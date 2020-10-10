@@ -6,10 +6,12 @@
           <img src="/logo-minecraft.png"/>
         </div>
         <h3>A FUN MINECRAFT SKYBLOCK EXPERIENCE!</h3>
-        <a class="as-button primary mt1rem" href="/minecraft/play">
+        <a class="as-button black mt1rem" href="/minecraft/play">
           <i class="icon-button fas fa-play"></i>PLAY NOW
         </a>
       </div>
+    </div>
+    <div class="banner-top">
     </div>
   </div>
 </template>
@@ -21,19 +23,26 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.banner-top {
+  width: 100%;
+  height: 126px;
+  margin-top: -126px;
+  background-repeat: repeat-x!important;
+  background-image: url("/mcsvg.png");
+}
 .asylumcarousel h1 { font-size: 68px; }
 .asylumcarousel h3 { font-size: 20px; }
 .asylumcarousel h3 { margin-top: 1rem; }
 .asylumcarousel {
-  display: flex;
   font-family: 'Inter', sans-serif;
-  height: 400px;
+  height: 500px;
   background: var(--background-image);
   color: #fff;
 }
 
 .asylumcarousel .asylumimg {
   width: 100%;
+  height: 100%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,18 +54,6 @@ export default {
 }
 
 .home-logo img {
-  width: 350px;
-}
-
-.asylumimg::before {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  content: "";
-  background-image: url("/minecraft.jpg");
-  background-size: cover;
-  opacity: 0.4;
+  width: 300px;
 }
 </style>

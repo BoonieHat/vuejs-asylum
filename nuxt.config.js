@@ -1,4 +1,5 @@
 export default {
+  srcDir: 'src/',
   target: 'server',
   head: {
     title: 'Asylum',
@@ -18,27 +19,8 @@ export default {
   },
   components: true,
 };
-//
 /*
 export default {
-  buildDir: 'nuxt-dist',
-  target: 'server',
-  head: {
-    title: 'MyAsylum',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'wip' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-  },
-  css: [
-  ],
-  plugins: [
-  ],
-  components: true,
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     //'@nuxtjs/eslint-module'
