@@ -4,6 +4,7 @@
     <HeaderMiniFiveM />
     <Banner />
     <Content />
+    <Footer />
   </div>
 </template>
 
@@ -12,12 +13,14 @@ import Header from '~/components/Header.vue'
 import HeaderMiniFiveM from '~/components/fivem/HeaderMini.vue'
 import Banner from '~/components/fivem/Banner.vue'
 import Content from '~/components/fivem/Content.vue'
+import Footer from '~/components/Footer.vue'
 export default {
   components: {
     Header,
     HeaderMiniFiveM,
     Banner,
-    Content
+    Content,
+    Footer
   }
 }
 </script>

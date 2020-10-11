@@ -4,6 +4,7 @@
     <HeaderMiniArma />
     <Banner />
     <Content />
+    <Footer />
   </div>
 </template>
 
@@ -12,12 +13,14 @@ import Header from '~/components/Header.vue'
 import HeaderMiniArma from '~/components/arma3/HeaderMini.vue'
 import Banner from '~/components/arma3/Banner.vue'
 import Content from '~/components/arma3/Content.vue'
+import Footer from '~/components/Footer.vue'
 export default {
   components: {
     Header,
     HeaderMiniArma,
     Banner,
-    Content
+    Content,
+    Footer
   }
 }
 </script>

@@ -13,36 +13,6 @@
         </a>
       </li>
 
-      <li class="item">
-        <a href="/minecraft/play" class="item-content">
-          <div class="label">
-            <div class="label-content">
-              <span class="name">Play Now</span> 
-            </div>
-          </div>
-        </a>
-      </li>
-
-      <li class="item">
-        <a href="/minecraft" class="item-content">
-          <div class="label">
-            <div class="label-content">
-              <span class="name">Support</span> 
-            </div>
-          </div>
-        </a>
-      </li>
-
-      <li class="item">
-        <a href="/minecraft/voting" class="item-content">
-          <div class="label">
-            <div class="label-content">
-              <span class="name">MyAsylum</span> 
-            </div>
-          </div>
-        </a>
-      </li>
-
     </ul>
   </nav>
 </div>

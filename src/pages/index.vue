@@ -3,6 +3,7 @@
     <Header navHome=true />
     <Banner />
     <Content />
+    <Footer />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Header from '~/components/Header.vue'
 import Banner from '~/components/index/Banner.vue'
 import Content from '~/components/index/Content.vue'
+import Footer from '~/components/Footer.vue'
 export default {
   components: {
     Header,
