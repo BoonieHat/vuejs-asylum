@@ -12,9 +12,9 @@
           </ul>
           <ul>
             <li class="footer-nav-header">Games</li>
-            <li class="footer-nav-item"><a href="/">Arma 3</a></li>
-            <li class="footer-nav-item"><a href="/">Minecraft</a></li>
-            <li class="footer-nav-item"><a href="/">FiveM</a></li>
+            <li class="footer-nav-item"><a href="/arma3">Arma 3</a></li>
+            <li class="footer-nav-item"><a href="/minecraft">Minecraft</a></li>
+            <li class="footer-nav-item"><a href="/fivem">FiveM</a></li>
           </ul>
           <ul>
             <li class="footer-nav-header">Community</li>
@@ -25,10 +25,10 @@
         </nav>
       </div>
       <div class="footer-content right">
-        <a href="/" class="as-button teamspeak">
+        <a href="ts3.gaming-asylum.com:9216" class="as-button teamspeak">
           <i class="icon-button fab fa-teamspeak" aria-hidden="true"></i>Teamspeak
         </a>
-        <a href="/" class="as-button discord">
+        <a href="https://discord.gg/kbxXck9" class="as-button discord">
           <i class="icon-button fab fa-discord" aria-hidden="true"></i>Discord
         </a>
       </div>

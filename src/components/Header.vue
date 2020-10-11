@@ -61,15 +61,15 @@
     </ul>
 
     <div style="margin-left: auto;" class="asylum-login-item">
-      <a href="/minecraft/play" aria-label="Sign In" class="asylum-login-button primary item-content">
+      <a href="/minecraft/play" aria-label="Play Now" class="asylum-login-button primary item-content">
         <span class="asylum-login-button-icon"><i class="fas fa-play"></i></span>
         Play Now
       </a>
-      <a href="/auth/steam" aria-label="Sign In" class="asylum-login-button teamspeak item-content">
+      <a href="ts3.gaming-asylum.com:9216" aria-label="Teamspeak" class="asylum-login-button teamspeak item-content">
         <span class="asylum-login-button-icon"><i class="fab fa-teamspeak"></i></span>
         Teamspeak
       </a>
-      <a href="/auth/steam" aria-label="Sign In" class="asylum-login-button discord item-content">
+      <a href="https://discord.gg/kbxXck9" aria-label="Discord" class="asylum-login-button discord item-content">
         <span class="asylum-login-button-icon"><i class="fab fa-discord"></i></span>
         Discord
       </a>
