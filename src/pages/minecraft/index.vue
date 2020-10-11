@@ -4,6 +4,7 @@
     <HeaderMiniMinecraft navMinecraftHome=true />
     <Banner />
     <Content />
+    <Footer />
   </div>
 </template>
 
@@ -12,12 +13,14 @@ import Header from '~/components/Header.vue'
 import HeaderMiniMinecraft from '~/components/minecraft/HeaderMini.vue'
 import Banner from '~/components/minecraft/index/Banner.vue'
 import Content from '~/components/minecraft/index/Content.vue'
+import Footer from '~/components/Footer.vue'
 export default {
   components: {
     Header,
     HeaderMiniMinecraft,
     Banner,
-    Content
+    Content,
+    Footer
   }
 }
 </script>

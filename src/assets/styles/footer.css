@@ -1,0 +1,131 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  background: var(--background-footer);
+}
+
+.footer-header {
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.footer-content.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content.right {
+  order: 1;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-content.right a {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  max-width: 600px;
+}
+
+.footer-nav {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.footer-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-bottom: 1rem;
+  margin-right: 5rem;
+  white-space: nowrap;
+}
+
+.footer-nav-header {
+  font-size: 24px;
+  letter-spacing: .02em;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
+}
+
+.footer-nav-item {
+  padding: .15em 0;
+}
+
+.footer-nav-item a {
+  text-decoration: none;
+  color: var(--color-muted);
+  transition: color .2s;
+}
+
+.footer-nav-item a:hover {
+  color: var(--color-text);
+}
+
+.footer-footer {
+  /*opacity: .6;*/
+}
+
+.footer-footer.copyright {
+  opacity: .8;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+.footer-footer.attribution {
+  opacity: .6;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer-content {
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer {
+    padding: 2rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .footer-nav {
+    display: flex;
+  }
+  .footer {
+    padding: 2rem 2rem;
+  }
+  .footer-nav ul {
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-nav {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .footer-content.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+  }
+}

@@ -61,7 +61,7 @@
     </ul>
 
     <div style="margin-left: auto;" class="asylum-login-item">
-      <a href="/minecraft/play" aria-label="Sign In" class="asylum-login-button primary item-content">
+      <a href="/minecraft/play" aria-label="Sign In" class="asylum-button primary item-content">
         <span class="asylum-login-button-icon"><i class="fas fa-play"></i></span>
         Play Now
       </a>

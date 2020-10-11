@@ -4,6 +4,7 @@
     <HeaderMiniMinecraft navMinecraftVoting=true />
     <Banner />
     <Content />
+    <Footer />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from '~/components/Header.vue'
 import HeaderMiniMinecraft from '~/components/minecraft/HeaderMini.vue'
 import Banner from '~/components/minecraft/voting/Banner.vue'
 import Content from '~/components/minecraft/voting/Content.vue'
+import Footer from '~/components/Footer.vue'
 export default {
   components: {
     Header,

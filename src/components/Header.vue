@@ -61,6 +61,10 @@
     </ul>
 
     <div style="margin-left: auto;" class="asylum-login-item">
+      <a href="/minecraft/play" aria-label="Sign In" class="asylum-login-button primary item-content">
+        <span class="asylum-login-button-icon"><i class="fas fa-play"></i></span>
+        Play Now
+      </a>
       <a href="/auth/steam" aria-label="Sign In" class="asylum-login-button teamspeak item-content">
         <span class="asylum-login-button-icon"><i class="fab fa-teamspeak"></i></span>
         Teamspeak
@@ -222,5 +226,34 @@ color: var(--button-primary-text-muted);
   flex-direction: row;
   margin: 0;
   padding: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header-logo {
+    display: none;
+  }
+  .asylum-header .item .item-content {
+    padding: .25rem .45rem;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .asylum-login-button.primary,
+  .asylum-login-button.teamspeak {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .asylum-login-button {
+    display: none;
+  }
+  .asylum-header-mini .item,
+  .asylum-header .item {
+    font-size: 14px !important;
+  }
+  .asylum-header .item .item-content {
+    padding: .25rem .45rem;
+  }
 }
 </style>

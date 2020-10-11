@@ -6,13 +6,13 @@
           <img src="/logo-minecraft.png"/>
         </div>
         <h3>Help us grow by voting! And get cool rewards!</h3>
-        <a class="as-button black mt1rem" href="/minecraft/play">
+        <a class="as-button black mt1rem" href="https://minecraftservers.org/vote/595367">
           <i class="icon-button fas fa-external-link-alt"></i>Voting Site #1
         </a>
-        <a class="as-button black mt1rem" href="/minecraft/play">
+        <a class="as-button black mt1rem" href="https://minecraft-mp.com/server/269136/vote/">
           <i class="icon-button fas fa-external-link-alt"></i>Voting Site #2
         </a>
-        <a class="as-button black mt1rem" href="/minecraft/play">
+        <a class="as-button black mt1rem" href="https://minecraft-server.net/vote/asylumminecraft/">
           <i class="icon-button fas fa-external-link-alt"></i>Voting Site #3
         </a>
       </div>
