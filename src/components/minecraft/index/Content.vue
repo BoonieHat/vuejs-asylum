@@ -1,7 +1,7 @@
 <template scoped>
   <div class="contentRoot minecraft-content">
     <div class="skyblock">
-      <img src="/skyblock.png"/>
+      <img src="/skyblocknew.png"/>
     </div>
     <div class="wrapperMain">
       <div class="margin-center">
