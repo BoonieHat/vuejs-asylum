@@ -65,7 +65,7 @@
         <span class="asylum-login-button-icon"><i class="fas fa-play"></i></span>
         Play Now
       </a>
-      <a href="ts3.gaming-asylum.com:9216" aria-label="Teamspeak" class="asylum-login-button teamspeak item-content">
+      <a href="ts3server://ts3.gaming-asylum.com:9216" aria-label="Teamspeak" class="asylum-login-button teamspeak item-content">
         <span class="asylum-login-button-icon"><i class="fab fa-teamspeak"></i></span>
         Teamspeak
       </a>

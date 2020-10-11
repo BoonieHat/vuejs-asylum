@@ -25,7 +25,7 @@
         </nav>
       </div>
       <div class="footer-content right">
-        <a href="ts3.gaming-asylum.com:9216" class="as-button teamspeak">
+        <a href="ts3server://ts3.gaming-asylum.com:9216" class="as-button teamspeak">
           <i class="icon-button fab fa-teamspeak" aria-hidden="true"></i>Teamspeak
         </a>
         <a href="https://discord.gg/kbxXck9" class="as-button discord">
