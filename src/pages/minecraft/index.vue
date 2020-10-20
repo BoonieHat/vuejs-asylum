@@ -27,6 +27,7 @@ export default {
 
 <style lang="css">
   @import "~/assets/styles/pageTheme/minecraft.css"; /*Page Theme File*/
+  @import "~/assets/styles/content.css"; /*Page Theme File*/
 </style>
 
 <style lang="css">

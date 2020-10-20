@@ -7,6 +7,7 @@
         </div>
         <h3>Let's get started!</h3>
         <input class="as-button black mt1rem" href="/minecraft/play" value="asylum-minecraft.com"/>
+        <button class="as-button black mt1rem"><i class="icon-button fas fa-copy"></i>Copy</button>
       </div>
     </div>
     <div class="banner-top">
