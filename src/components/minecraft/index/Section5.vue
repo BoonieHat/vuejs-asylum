@@ -2,7 +2,7 @@
   <div class="bg-media">
     <div class="asset-container" style="filter: brightness(70%);-webkit-mask-image: -webkit-linear-gradient(top, black 40%, transparent 90%);">
       <div class="bg-media-hero-asset is-image" 
-        style="background-image: url(./section1.jpg); opacity: 0.15;">
+        style="background-image: url(./section5.jpg); opacity: 0.15;">
       </div>
     </div>
     <section class="section">

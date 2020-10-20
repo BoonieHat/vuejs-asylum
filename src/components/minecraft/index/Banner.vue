@@ -34,8 +34,8 @@ export default {
 .asylumcarousel h3 { font-size: 20px; }
 .asylumcarousel h3 { margin-top: 1rem; }
 .asylumcarousel {
-  font-family: 'Inter', sans-serif;
   height: 500px;
+  font-family: 'Inter', sans-serif;
   background: var(--background-image);
   color: #fff;
 }
