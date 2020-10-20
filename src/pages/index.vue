@@ -19,6 +19,7 @@ export default {
     Content
   }
 }
+
 </script>
 
 <style lang="css">
