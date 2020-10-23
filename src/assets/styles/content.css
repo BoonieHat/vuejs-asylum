@@ -32,6 +32,22 @@
   display: block;
 }
 
+.section-full {
+  padding: 24rem 8rem;
+  display: block;
+}
+
+.bg-video {
+  position: absolute;
+  height: auto;
+  width: auto;
+  min-width: 100%;
+  min-height: 120%;
+  top: -25%;
+  left: 0%;
+  pointer-events: none;
+}
+
 .container {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
