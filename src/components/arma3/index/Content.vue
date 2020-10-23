@@ -4,7 +4,7 @@
       <ArmaSection 
         brightness="100%" 
         opacity="0.25" 
-        imageUrl="./arma3/section1.jpg" 
+        imageUrl="./section1.jpg" 
         cardIcon="fas fa-envelope" 
         cardTitle="Join Gangs" 
         cardText="Want to work with the criminal underworld and take over the island? Join a gang."
@@ -12,7 +12,7 @@
       <ArmaSection 
         brightness="100%" 
         opacity="0.25" 
-        imageUrl="./arma3/section1.jpg" 
+        imageUrl="./section1.jpg" 
         cardIcon="fas fa-envelope" 
         cardTitle="Join Fire Department" 
         cardText="Want to work with the criminal underworld and take over the island? Join a gang."
@@ -20,7 +20,7 @@
       <ArmaSection 
         brightness="100%" 
         opacity="0.25" 
-        imageUrl="./arma3/section1.jpg" 
+        imageUrl="./section1.jpg" 
         cardIcon="fas fa-envelope" 
         cardTitle="Join Police Department" 
         cardText="Want to work with the criminal underworld and take over the island? Join a gang."
@@ -28,7 +28,7 @@
       <ArmaSection 
         brightness="100%" 
         opacity="0.25" 
-        imageUrl="./arma3/section2.jpg" 
+        imageUrl="./section2.jpg" 
         cardIcon="fas fa-wallet" 
         cardTitle="Control Cartels" 
         cardText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -36,7 +36,7 @@
       <ArmaSection 
         brightness="100%" 
         opacity="0.25" 
-        imageUrl="./arma3/section3.jpg" 
+        imageUrl="./section3.jpg" 
         cardIcon="fas fa-question" 
         cardTitle="Bank Heists" 
         cardText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -44,7 +44,7 @@
       <ArmaSection 
         brightness="100%" 
         opacity="0.25" 
-        imageUrl="./arma3/section4.jpg" 
+        imageUrl="./section4.jpg" 
         cardIcon="fas fa-layer-group" 
         cardTitle="Prison Breaks" 
         cardText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -52,7 +52,7 @@
       <ArmaSection 
         brightness="100%" 
         opacity="0.25" 
-        imageUrl="./arma3/section5.jpg" 
+        imageUrl="./section5.jpg" 
         cardIcon="fas fa-gem" 
         cardTitle="Federal Reserve Robbery" 
         cardText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -60,7 +60,7 @@
       <ArmaSection 
         brightness="100%" 
         opacity="0.25" 
-        imageUrl="./arma3/section6.jpg" 
+        imageUrl="./section6.jpg" 
         cardIcon="fas fa-gem" 
         cardTitle="Raid Evidence Lockup" 
         cardText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."

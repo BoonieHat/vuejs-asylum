@@ -129,7 +129,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: .5rem 1rem;
+  padding: 0rem 1rem;
 }
 
 .asylum-login-button.primary {
@@ -161,6 +161,6 @@
 }
 
 .asylum-login-button-icon {
-  font-size: 18px;
-  padding-right: 10px;
+  font-size: 16px;
+  padding-right: 5px;
 }

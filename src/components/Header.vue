@@ -152,11 +152,11 @@ color: var(--button-primary-text-muted);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: .75rem 1.25rem;
+  padding: .5rem 1.25rem;
 }
 .header-logo svg {
   height: 30px;
-  width: 140px;
+  width: 100px;
   fill: var(--color-text);
 }
 
