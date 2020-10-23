@@ -5,7 +5,7 @@
       style="">
       <div class="bg-media-hero-asset is-image">
         <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" playsinline="" class="bg-video">
-          <source type="video/mp4" src="./arma3/alec.mp4">
+          <source type="video/mp4" src="/arma3/alec.mp4">
         </video>
       </div>
     </div>
