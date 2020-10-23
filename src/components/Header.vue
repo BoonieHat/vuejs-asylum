@@ -7,7 +7,7 @@
       </a>
     </div>
     <ul>
-
+      <!--
       <li class="item">
         <a href="/" class="item-content" v-bind:class="{ active: navHome }">
           <div class="label">
@@ -17,6 +17,7 @@
           </div>
         </a>
       </li>
+      -->
 
       <li class="item">
         <a href="/arma3" class="item-content" v-bind:class="{ active: navArma }">
@@ -37,7 +38,7 @@
           </div>
         </a>
       </li>
-
+      <!--
       <li class="item">
         <a href="/fivem" class="item-content" v-bind:class="{ active: navFivem }">
           <div class="label">
@@ -47,6 +48,7 @@
           </div>
         </a>
       </li>
+      -->
 
       <li class="item">
         <a href="https://gaming-asylum.com/forums" rel="noreferrer noopener" class="item-content">

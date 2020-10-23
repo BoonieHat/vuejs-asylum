@@ -3,29 +3,56 @@
     <div class="skyblock"><img src="/skyblocknew.png"/></div>
 
     <div class="content-root-next">
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
+      <Section 
+        brightness="70%" 
+        opacity="0.15" 
+        imageUrl="./section1.jpg" 
+        cardIcon="fas fa-envelope" 
+        cardTitle="Invite Your Friends!" 
+        cardText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      />
+      <Section 
+        brightness="70%" 
+        opacity="0.15" 
+        imageUrl="./section2.jpg" 
+        cardIcon="fas fa-wallet" 
+        cardTitle="Make Money" 
+        cardText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      />
+      <Section 
+        brightness="70%" 
+        opacity="0.15" 
+        imageUrl="./section3.jpg" 
+        cardIcon="fas fa-question" 
+        cardTitle="Missions" 
+        cardText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      />
+      <Section 
+        brightness="70%" 
+        opacity="0.15" 
+        imageUrl="./section4.jpg" 
+        cardIcon="fas fa-layer-group" 
+        cardTitle="Grow your Island" 
+        cardText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      />
+      <Section 
+        brightness="70%" 
+        opacity="0.15" 
+        imageUrl="./section5.jpg" 
+        cardIcon="fas fa-gem" 
+        cardTitle="Fight for rare rewards" 
+        cardText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      />
     </div>
   </div>
 </template>
 
 <script>
-import Section1 from '~/components/minecraft/index/Section1.vue'
-import Section2 from '~/components/minecraft/index/Section2.vue'
-import Section3 from '~/components/minecraft/index/Section3.vue'
-import Section4 from '~/components/minecraft/index/Section4.vue'
-import Section5 from '~/components/minecraft/index/Section5.vue'
+import Section from '~/components/minecraft/index/Section.vue'
 export default { 
   name: 'Content',
   components: {
-    Section1,
-    Section2,
-    Section3,
-    Section4,
-    Section5,
+    Section
   }
 }
 </script>
