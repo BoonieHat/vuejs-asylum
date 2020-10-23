@@ -14,7 +14,7 @@
         opacity="0.25" 
         imageUrl="./arma3/section1.jpg" 
         cardIcon="fas fa-envelope" 
-        cardTitle="Join Fire Deptartment" 
+        cardTitle="Join Fire Department" 
         cardText="Want to work with the criminal underworld and take over the island? Join a gang."
       />
       <ArmaSection 
@@ -22,7 +22,7 @@
         opacity="0.25" 
         imageUrl="./arma3/section1.jpg" 
         cardIcon="fas fa-envelope" 
-        cardTitle="Join Police Deptartment" 
+        cardTitle="Join Police Department" 
         cardText="Want to work with the criminal underworld and take over the island? Join a gang."
       />
       <ArmaSection 

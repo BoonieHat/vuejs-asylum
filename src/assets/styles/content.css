@@ -75,12 +75,12 @@
 
 @media only screen and (max-width: 900px) {
   .column.desktop { width: 100%; }
-  .section { padding: 26rem 4rem 4rem 4rem; }
+  .section { padding: 26rem 2rem 4rem 2rem; }
 }
 
 @media only screen and (max-width: 700px) {
   .column.desktop { width: 100%; }
-  .section { padding: 18rem 4rem 4rem 4rem; }
+  .section { padding: 18rem 0rem 2rem 0rem; }
 }
 
 .columns {
@@ -106,7 +106,7 @@
 
   color: #fff;
   display: block;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .box:hover {
@@ -138,10 +138,10 @@
 
 .box .icon {
   border: 3px solid var(--color-accent);
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--color-accent);
-  width: 50px;
-  height: 50px;
+  width: 36px;
+  height: 36px;
   border-radius: 0%;
   margin-right: 1rem;
 }
@@ -161,11 +161,11 @@
 }
 
 .title {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .subtitle{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .subtitle {
