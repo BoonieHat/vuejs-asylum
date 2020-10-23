@@ -4,10 +4,40 @@
     <ul>
 
       <li class="item">
-        <a href="/minecraft" class="item-content active">
+        <a href="/arma3" class="item-content active">
           <div class="label">
             <div class="label-content">
               <span class="name">Home</span> 
+            </div>
+          </div>
+        </a>
+      </li>
+
+      <li class="item">
+        <a href="/arma3/" class="item-content">
+          <div class="label">
+            <div class="label-content">
+              <span class="name">Play Now</span> 
+            </div>
+          </div>
+        </a>
+      </li>
+
+      <li class="item">
+        <a href="/arma3/" class="item-content">
+          <div class="label">
+            <div class="label-content">
+              <span class="name">Subscribe</span> 
+            </div>
+          </div>
+        </a>
+      </li>
+
+      <li class="item">
+        <a href="/arma3/" class="item-content">
+          <div class="label">
+            <div class="label-content">
+              <span class="name">Loot Crates</span> 
             </div>
           </div>
         </a>

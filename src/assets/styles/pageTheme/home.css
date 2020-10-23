@@ -1,19 +1,19 @@
 :root {
   --color-text: #fff;
   --color-muted: rgba(230, 230, 230, 0.75);
-  --color-accent: #B3A259;
-  --color-accent-light: #B3A259;
-  --background-header: rgb(36, 43, 51);
-  --background-image: linear-gradient(360deg, #c5b46a 0%, #B3A259 100%);
-  --background-light: rgb(51, 61, 71);
-  --background-middle: rgb(36, 43, 51);
-  --background-front: rgb(23, 28, 33);
-  --background-back: rgb(25, 30, 36);
-  --background-footer: rgb(19, 22, 27);
+  --color-accent: #7339E9;
+  --color-accent-light: #7339E9;
+  --background-header: #1A1830;
+  --background-image: linear-gradient(360deg, #7339E9 0%, #7339E9 100%);
+  --background-light: #262444;
+  --background-middle: #1f1d38;
+  --background-front: #1A1830;
+  --background-back: #17162a;
+  --background-footer: rgb(20, 18, 36);
   --shadow-header: 0 6px 6px 0 rgba(0,0,0,0.25);
   --shadow: 0 6px 6px 0 rgba(0,0,0,0.1);
   --button-primary-text: #fff;
   --button-primary-text-muted: #ebebeb;
-  --button-primary-accent:rgb(179, 162, 89);
-  --button-primary-accent-hover: #B3A259;
+  --button-primary-accent:#7339E9;
+  --button-primary-accent-hover: #7339E9;
 }

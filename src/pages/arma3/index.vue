@@ -2,7 +2,7 @@
   <div>
     <Header navArma=true />
     <HeaderMiniArma />
-    <TopVideo />
+    <Banner />
     <Content />
     <Footer />
   </div>
@@ -11,6 +11,7 @@
 <script>
 import Header from '~/components/Header.vue'
 import HeaderMiniArma from '~/components/arma3/HeaderMini.vue'
+import Banner from '~/components/arma3/index/Banner.vue'
 import Content from '~/components/arma3/index/Content.vue'
 import Footer from '~/components/Footer.vue'
 import TopVideo from '~/components/arma3/index/TopVideo.vue'
@@ -18,7 +19,7 @@ export default {
   components: {
     Header,
     HeaderMiniArma,
-    TopVideo,
+    Banner,
     Content,
     Footer
   }
